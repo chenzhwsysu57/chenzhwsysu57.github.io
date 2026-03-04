@@ -7,9 +7,9 @@ redirect_from:
   - /about.html
 ---
 
-Zhiwei Chen holds a Master degree of National University of Singapore, and Bachelor degree of Sun Yat-sen University supervised by [Prof. Li](https://ise.sysu.edu.cn/teacher/LiXiying). After graduate he worked for [Prof. Zhao](https://zikai1.github.io/) as research assistant for a year.  Despite his experience with MLLM, VQA, RAG and agent development on the domain of traffic, finance, healcare and social media, his current research interest lies in methdology of representation learning and cross modality learning.
+Welcome to my website! I hold a Master degree from National University of Singapore, and Bachelor degree from Sun Yat-sen University, supervised by [Prof. Li](https://ise.sysu.edu.cn/teacher/LiXiying). After graduate I worked for [Prof. Zhao](https://zikai1.github.io/) as research assistant for a year.  I have experience with MLLM, VQA, RAG and agent development on the domain of traffic, finance, healcare and social media, and my current research interest lies in methdology of representation learning and cross modality learning.
 
-🌟 He is currently seeking for RA/PhD opportunities around the world.
+🌟 I am currently seeking for RA/PhD opportunities around the world.
 
 
 Education
