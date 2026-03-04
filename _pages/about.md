@@ -14,8 +14,9 @@ Welcome to my website! I hold a Master degree from National University of Singap
 
 Education
 ======
-- 09/2018-08/2022, B.Eng, Traffic Engineering, Sun Yat-sen University
 - 08/2023-11/2024, M.Tech, Artificial Intelligent Systems, National University of Singapore
+- 09/2018-08/2022, B.Eng, Traffic Engineering, Sun Yat-sen University
+
 
 Work Experience
 ======
