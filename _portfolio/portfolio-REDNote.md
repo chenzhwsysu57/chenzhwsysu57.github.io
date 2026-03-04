@@ -1,8 +1,7 @@
 ---
 title: "LLM-based Agent: REDNote Surfing"
 excerpt: "Seeing Qwen surfing rednote like human is a joy"
-collection: portfolio
----
+
 
 Seeing Qwen surfing rednote like human is a joy
 
@@ -17,3 +16,6 @@ The project support LLM decision making on REDNote including:
 - immense in comment section like human
 
 No Web event used! I take care of all the interaction with REDNote. The LLM only need to focus on decision making. It is like a human surfing REDNote, not a bot. The project is still in early stage, but I am excited about the potential of LLM-based agents in social media platforms.
+
+collection: portfolio
+---
