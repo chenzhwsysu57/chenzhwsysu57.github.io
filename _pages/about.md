@@ -7,9 +7,12 @@ redirect_from:
   - /about.html
 ---
 
-Welcome to my website! I hold a Master degree from National University of Singapore, and Bachelor degree from Sun Yat-sen University, supervised by [Prof. Li](https://ise.sysu.edu.cn/teacher/LiXiying). After graduate I worked for [Prof. Zhao](https://zikai1.github.io/) as research assistant for a year.  I have experience with MLLM, VQA, RAG and agent development on the domain of traffic, finance, healcare and social media, and my current research interest lies in methdology of representation learning and cross modality learning.
+**This website is still under construction.**
 
-🌟 I am currently seeking for RA/PhD opportunities around the world.
+
+Welcome to my website! I hold a Master degree from National University of Singapore, and Bachelor degree from Sun Yat-sen University, supervised by [Prof. Li](https://ise.sysu.edu.cn/teacher/LiXiying). After graduate I worked for [Prof. Zhao](https://zikai1.github.io/) as research assistant for a year.  I have experience with MLLM, VQA, RAG and agent development on the domain of traffic, finance, healcare and social media. I'm still developing my research tastes and skills. My current research interest lies in methdology of representation learning and cross modality learning.
+
+I am currently seeking for RA/PhD opportunities around the world.
 
 
 Education
@@ -20,5 +23,5 @@ Education
 
 Work Experience
 ======
-- 02/2023-02/2025, Intern & Research Assistant, CAIR, HKSTP, Hong Kong
-
+- 02/2024-02/2026, Intern & Research Assistant, CAIR, HKSTP, Hong Kong
+- 08/2023-11/2024, Intern, Likelihood Lab, GuangZhou (Remote)

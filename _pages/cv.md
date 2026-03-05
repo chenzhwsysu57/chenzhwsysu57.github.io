@@ -11,35 +11,38 @@ redirect_from:
 
 Education
 ======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+* M.Tech. in Singapore, National University of Singapore, 2024
+* B.Eng. in Guangzhou, Sun Yat-sen University, 2022
 
 Work experience
 ======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+* Spring 2024: Research Assistant
+  * Ceter for Artificial Intelligence and Robotics, Hong Kong
+  * Duties includes: data scraping and cleaning; PDF parsing; LLM/VLM deployment and testing; benchmarking medical QA/VQA under one shot, zero shot and chain of thought; benchmarking report generation; CLIP domain pretraining
+  * Supervisor: [Mingyang Zhao](https://zikai1.github.io/)
 
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+* Fall 2023: Intern
+  * Likelihood Lab, Guangzhou, China
+  * Duties included: multiple finance news scraping, RAG data storing and QA routing; FinRobot multiple function implementation
+  * Supervisor: [Mingwen Liu](http://www.maxlikelihood.cn)
 
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-  
 Skills
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* RAG system building
+  * chroma data storing
+  * query filter support
+  * knowledge regular update and deduplicate
+* Agent system building
+  * LLM decision making
+  * automation tool
+  * FSM modeling
+* Contrastive learning
+  * data scraping
+  * noisy weak supervision
+* Multimodal learning
+  * image caption
+
+
 
 Publications
 ======
@@ -47,18 +50,4 @@ Publications
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
   
-Talks
-======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
+
