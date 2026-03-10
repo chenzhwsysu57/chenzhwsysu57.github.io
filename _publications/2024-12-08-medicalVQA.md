@@ -7,7 +7,7 @@ excerpt: 'In this work, we proposed a new medical VQA dataset that either requir
 date: 2024-12-08
 venue: 'arxiv'
 slidesurl: 'https://chenzhwsysu57.github.io/files/slides1.pdf'
-paperurl: 'https://chenzhwsysu57.github.io/files/anonymous-submission-latex-2026.pdf'
+paperurl: 'https://chenzhwsysu57.github.io/files/example_paper_latex_2025_medicalVQA.pdf'
 bibtexurl: 'https://chenzhwsysu57.github.io/files/bibtex1.bib'
 citation: 'Z Chen. (2025). &quot;medicalVQA.&quot; <i>arxiv 1</i>. 1(1).'
 ---
