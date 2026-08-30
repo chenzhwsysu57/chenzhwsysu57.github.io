@@ -26,11 +26,11 @@ News
 <div class="news-scroll" aria-label="News">
 
 <ul>
-<li><strong>06/2025</strong> 🎉 Zhongtao Rao's work was recognized at <strong>SIGIR 2026</strong>. Congratulations!</li>
-<li><strong>04/2025</strong> Joined <strong>HKUST(GZ)</strong>, supervised by <strong>Tianxiang Zhao</strong>.</li>
+<li><strong>07/2026</strong> 🎉 Zhongtao Rao's work accepted to <strong>SIGIR 2026</strong>. Congratulations!</li>
+<li><strong>04/2026</strong> Joined <strong>HKUST(GZ)</strong>, supervised by <strong>Tianxiang Zhao</strong>.</li>
 <li><strong>11/2024</strong> Graduated from <strong>NUS</strong> with a Master's degree in Artificial Intelligence Systems.</li>
-<li><strong>08/2024</strong> Contributed a Bitbucket code corpus to <a href="https://huggingface.co/datasets/liwu/MNBVC">MNBVC</a> through <a href="https://github.com/chenzhwsysu57/bitbucket_crawl_mnbvc">bitbucket_crawl_mnbvc</a>.</li>
-<li><strong>02/2024</strong> Joined <a href="https://www.cair-cas.org.hk/">CAIR</a> under the supervision of <strong>Mingyang Zhao</strong>. Developed <a href="https://echocare.cares-copilot.com/">EchoCare</a> and built a RAG system for acquiring, storing, and querying medical papers and textbook PDFs.</li>
+<li><strong>08/2024</strong> Contributed Bitbucket dataset to <a href="https://huggingface.co/datasets/liwu/MNBVC">MNBVC</a> through <a href="https://github.com/chenzhwsysu57/bitbucket_crawl_mnbvc">bitbucket_crawl_mnbvc</a>.</li>
+<li><strong>02/2024</strong> Joined <a href="https://www.cair-cas.org.hk/">CAIR</a> as intern under the supervision of <strong>Mingyang Zhao</strong>. </li>
 <li><strong>08/2023</strong> Joined <a href="http://www.maxlikelihood.cn/">Likelihood Lab</a> under the supervision of <strong>Mingwen Liu</strong>, working on RAG data construction, routing, and retrieval.</li>
 <li><strong>06/2022</strong> Graduated from <strong>Sun Yat-sen University (SYSU)</strong>, supervised by <a href="https://ise.sysu.edu.cn/teacher/LiXiying">Xiying Li</a>.</li>
 </ul>
@@ -76,7 +76,7 @@ Projects
     <h2>SAGE: A Self-Evolving Reliable Strategic Reasoning Framework for LLM Game-Playing Agents</h2>
     <p class="academic-card__authors"><strong>Zhiwei Chen</strong>, <a href="https://scholar.google.com/citations?user=8su8b60AAAAJ&hl=en">Tianchun Wang</a>, Tianxiang Zhao</p>
     <p class="academic-card__venue">Aug 2026 · Strategic reasoning and self-evolving agents</p>
-    <p class="academic-card__links"><a href="https://chenzhwsu57.github.io/SAGE/">Homepage</a> <a href="https://github.com/chenzhwsu57/SAGE">GitHub</a></p>
+    <p class="academic-card__links"><a href="https://chenzhwsysu57.github.io/SAGE/">Homepage</a> <a href="https://github.com/chenzhwsysu57/SAGE">GitHub</a></p>
   </div>
 </article>
 
