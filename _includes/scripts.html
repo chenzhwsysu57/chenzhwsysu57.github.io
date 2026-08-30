@@ -1,3 +1,11 @@
 <script type="module" src="{{ base_path }}/assets/js/main.min.js"></script>
 
+<script>
+  // The site uses a light-only design; keep the legacy theme script from
+  // applying a dark theme based on the visitor's system preference.
+  const forceLightTheme = () => document.documentElement.removeAttribute('data-theme');
+  forceLightTheme();
+  new MutationObserver(forceLightTheme).observe(document.documentElement, { attributes: true, attributeFilter: ['data-theme'] });
+</script>
+
 {% include analytics.html %}

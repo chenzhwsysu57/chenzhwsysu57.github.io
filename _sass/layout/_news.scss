@@ -1,0 +1,35 @@
+/* Scrollable news list on the homepage. */
+.news-scroll {
+  max-height: 260px;
+  overflow-y: auto;
+  margin-bottom: 0.35em;
+  padding: 0.15em 1em 0.15em 0;
+  border-bottom: 1px solid var(--global-border-color);
+  scrollbar-width: thin;
+
+  ul {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  li {
+    margin-bottom: 0.7em;
+
+    &:last-child {
+      margin-bottom: 0.15em;
+    }
+  }
+}
+
+.news-scroll-hint {
+  margin-top: 0;
+  color: var(--global-text-color-light);
+  font-size: 0.75em;
+  text-align: right;
+}
+
+@include breakpoint($small) {
+  .news-scroll {
+    max-height: 320px;
+  }
+}
