@@ -26,7 +26,8 @@ News
 <div class="news-scroll" aria-label="News">
 
 <ul>
-<li><strong>07/2026</strong> 🎉 Zhongtao Rao's work accepted to <strong>SIGIR 2026</strong>. Congratulations!</li>
+<li><strong>09/2026</strong> One paper accepted by <strong>BIBM 2026</strong>. Congrat to <strong>Zihan Chen</strong>!</li>
+<li><strong>07/2026</strong> One paper accepted by <strong>SIGIR 2026</strong>. Congrat to <strong>Zhongtao Rao</strong>!</li>
 <li><strong>04/2026</strong> Joined <strong>HKUST(GZ)</strong>, supervised by <strong>Tianxiang Zhao</strong>.</li>
 <li><strong>11/2024</strong> Graduated from <strong>NUS</strong> with a Master's degree in Artificial Intelligence Systems.</li>
 <li><strong>08/2024</strong> Contributed Bitbucket dataset to <a href="https://huggingface.co/datasets/liwu/MNBVC">MNBVC</a> through <a href="https://github.com/chenzhwsysu57/bitbucket_crawl_mnbvc">bitbucket_crawl_mnbvc</a>.</li>
@@ -52,10 +53,12 @@ Publications
   <div class="academic-card__body">
     <h2>{{ publication.title }}</h2>
     <p class="academic-card__authors">{% for author in publication.authors %}{% assign author_url = site.author_links[author] %}{% if author == "Zhiwei Chen" %}<strong>{{ author }}</strong>{% elsif author_url %}<a href="{{ author_url }}">{{ author }}</a>{% else %}{{ author }}{% endif %}{% unless forloop.last %}, {% endunless %}{% endfor %}</p>
-    <p class="academic-card__venue">{{ publication.venue | default: "Preprint" }} · {{ publication.date | date: "%Y" }}</p>
+    {% assign publication_year = publication.date | date: "%Y" %}
+    <p class="academic-card__venue">{{ publication.venue | default: "Preprint" }}{% unless publication.venue contains publication_year %} · {{ publication_year }}{% endunless %}</p>
     {% if publication.excerpt %}<p>{{ publication.excerpt }}</p>{% endif %}
     <p class="academic-card__links">
       {% if publication.paperurl %}<a href="{{ publication.paperurl }}">Paper</a>{% endif %}
+      {% if publication.homepageurl %}<a href="{{ publication.homepageurl }}">Homepage</a>{% endif %}
       {% if publication.slidesurl %}<a href="{{ publication.slidesurl }}">Slides</a>{% endif %}
       {% if publication.bibtexurl %}<a href="{{ publication.bibtexurl }}">BibTeX</a>{% endif %}
       {% if publication.codeurl %}<a href="{{ publication.codeurl }}">Code</a>{% endif %}
@@ -70,16 +73,6 @@ Projects
 ========
 
 <div class="academic-list">
-<article class="academic-card project-card">
-  <div class="academic-card__image"><img src="{{ '/images/sage.png' | relative_url }}" alt="SAGE project preview"></div>
-  <div class="academic-card__body">
-    <h2>SAGE: A Self-Evolving Reliable Strategic Reasoning Framework for LLM Game-Playing Agents</h2>
-    <p class="academic-card__authors"><strong>Zhiwei Chen</strong>, <a href="https://scholar.google.com/citations?user=8su8b60AAAAJ&hl=en">Tianchun Wang</a>, Tianxiang Zhao</p>
-    <p class="academic-card__venue">Aug 2026 · Strategic reasoning and self-evolving agents</p>
-    <p class="academic-card__links"><a href="https://chenzhwsysu57.github.io/SAGE/">Homepage</a> <a href="https://github.com/chenzhwsysu57/SAGE">GitHub</a></p>
-  </div>
-</article>
-
 <article class="academic-card project-card">
   <div class="academic-card__image"><img src="{{ '/images/echocare.png' | relative_url }}" alt="EchoCare preview"></div>
   <div class="academic-card__body">
