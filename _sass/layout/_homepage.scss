@@ -324,6 +324,14 @@ body {
   }
 }
 
+.academic-card__title-logo {
+  display: inline-block;
+  width: auto;
+  height: 2.25em;
+  margin-right: 0.2em;
+  vertical-align: middle;
+}
+
 .academic-card__image {
   align-self: start;
   overflow: hidden;
@@ -348,6 +356,14 @@ body {
   }
 }
 
+.academic-card__image--contain {
+  background: #fff;
+
+  img {
+    object-fit: contain;
+  }
+}
+
 .academic-card__venue {
   color: #6c8291 !important;
   font-size: 0.82em !important;
@@ -360,6 +376,19 @@ body {
   gap: 0.9em;
   margin-bottom: 0 !important;
   font-weight: 600;
+
+  a {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.35em;
+  }
+
+  .academic-card__link-icon {
+    width: 20px;
+    height: 20px;
+    flex-shrink: 0;
+    object-fit: contain;
+  }
 }
 
 @media (max-width: 600px) {

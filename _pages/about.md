@@ -47,22 +47,27 @@ Publications
 {% assign publications = site.publications | sort: "date" | reverse %}
 {% for publication in publications %}
 <article class="academic-card publication-card">
-  <div class="academic-card__image">
+  <div class="academic-card__image{% if publication.image_fit == 'contain' %} academic-card__image--contain{% endif %}">
     <img src="{{ publication.image | default: '/images/500x300.png' | relative_url }}" alt="{{ publication.title }} preview">
   </div>
   <div class="academic-card__body">
-    <h2>{{ publication.title }}</h2>
+    <h2>{% if publication.title_logo %}<img class="academic-card__title-logo" src="{{ publication.title_logo | relative_url }}" alt="" aria-hidden="true"> {% endif %}{{ publication.title }}</h2>
     <p class="academic-card__authors">{% for author in publication.authors %}{% assign author_url = site.author_links[author] %}{% if author == "Zhiwei Chen" %}<strong>{{ author }}</strong>{% elsif author_url %}<a href="{{ author_url }}">{{ author }}</a>{% else %}{{ author }}{% endif %}{% unless forloop.last %}, {% endunless %}{% endfor %}</p>
     {% assign publication_year = publication.date | date: "%Y" %}
     <p class="academic-card__venue">{{ publication.venue | default: "Preprint" }}{% unless publication.venue contains publication_year %} · {{ publication_year }}{% endunless %}</p>
     {% if publication.excerpt %}<p>{{ publication.excerpt }}</p>{% endif %}
+    {% if publication.resource_links %}
+    {% include publication-resource-links.html publication=publication %}
+    {% else %}
     <p class="academic-card__links">
       {% if publication.paperurl %}<a href="{{ publication.paperurl }}">Paper</a>{% endif %}
       {% if publication.homepageurl %}<a href="{{ publication.homepageurl }}">Homepage</a>{% endif %}
       {% if publication.slidesurl %}<a href="{{ publication.slidesurl }}">Slides</a>{% endif %}
       {% if publication.bibtexurl %}<a href="{{ publication.bibtexurl }}">BibTeX</a>{% endif %}
       {% if publication.codeurl %}<a href="{{ publication.codeurl }}">Code</a>{% endif %}
+      {% if publication.dataseturl %}<a href="{{ publication.dataseturl }}">Dataset</a>{% endif %}
     </p>
+    {% endif %}
   </div>
 </article>
 {% endfor %}

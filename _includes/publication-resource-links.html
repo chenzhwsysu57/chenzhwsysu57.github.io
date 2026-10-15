@@ -1,0 +1,5 @@
+<p class="academic-card__links">
+  {% for resource in include.publication.resource_links %}
+  <a href="{{ resource.url }}">{% if resource.icon %}<img class="academic-card__link-icon" src="{{ resource.icon }}" alt="" width="20" height="20" aria-hidden="true">{% endif %}{{ resource.label }}</a>
+  {% endfor %}
+</p>
