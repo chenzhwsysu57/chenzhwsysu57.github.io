@@ -84,7 +84,12 @@ Projects
     <h2>EchoCare: A fully open and generalizable foundation model for ultrasound clinical applications</h2>
     <p class="academic-card__authors">Hongyuan Zhang, Yuheng Wu, Mingyang Zhao, <strong>Zhiwei Chen</strong>, Rebecca Li, Fei Zhu, Haohan Zhao, Xiaohua Yuan, Meng Yang, Chunli Qiu, Xiang Cong, Haiyan Chen, Lina Luan, Randolph H.L. Wong, Huai Liao, Colin A Graham, Shi Chang, Guowei Tao, Dong Yi, Zhen Lei, Nassir Navab, Sebastien Ourselin, Jiebo Luo, Hongbin Liu, Gaofeng Meng</p>
     <p class="academic-card__venue">Sept 2025 · Open-source foundation model for ultrasound clinical applications</p>
-    <p class="academic-card__links"><a href="https://echocare.cares-copilot.com/">Homepage</a> <a href="https://github.com/CAIR-HKISI/EchoCare">GitHub</a> <a href="https://huggingface.co/CAIR-HKISI">Hugging Face</a> <a href="http://arxiv.org/abs/2509.11752">arXiv</a></p>
+    <p class="academic-card__links">
+      <a href="https://echocare.cares-copilot.com/"><img class="academic-card__link-icon" src="{{ '/images/home.png' | relative_url }}" alt="" width="20" height="20" aria-hidden="true">Home</a>
+      <a href="https://github.com/CAIR-HKISI/EchoCare"><img class="academic-card__link-icon" src="https://raw.githubusercontent.com/chenzhwsysu57/kvreuse/main/assets/icons/github.svg" alt="" width="20" height="20" aria-hidden="true">EchoCare</a>
+      <a href="https://huggingface.co/CAIR-HKISI"><img class="academic-card__link-icon" src="https://raw.githubusercontent.com/chenzhwsysu57/kvreuse/main/assets/icons/huggingface.svg" alt="" width="20" height="20" aria-hidden="true">Dataset</a>
+      <a href="https://arxiv.org/abs/2509.11752"><img class="academic-card__link-icon" src="https://raw.githubusercontent.com/chenzhwsysu57/kvreuse/main/assets/icons/arxiv.svg" alt="" width="20" height="20" aria-hidden="true">2509.11752</a>
+    </p>
   </div>
 </article>
 
