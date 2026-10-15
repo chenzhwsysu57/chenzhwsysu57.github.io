@@ -13,7 +13,7 @@ Short Bio
 
 Welcome to my homepage! I am currently a research assistant in the [AI Thrust](https://www.hkust-gz.edu.cn/academics/hubs-and-thrust-areas/information-hub/artificial-intelligence/) of the [Information Hub](https://www.hkust-gz.edu.cn/academics/hubs-and-thrust-areas/information-hub/) at [The Hong Kong University of Science and Technology (Guangzhou)](https://www.hkust-gz.edu.cn/), supervised by [Prof. Tianxiang Zhao](https://tianxiangzhao.github.io/). Previously, I worked as a research assistant at [CAIR-HKISI](https://www.cair-cas.org.hk/), supervised by [Prof. Mingyang Zhao](https://zikai1.github.io/). During my spare time, I helped build a code dataset for [MNBVC](https://huggingface.co/datasets/liwu/MNBVC) and helped build the financial RAG system for [Likelihood Lab](http://www.maxlikelihood.cn/).
 
-My current research focuses on the **efficiency, effectiveness, and reliability of AI**, including scenarios involving **agent and multi-agent systems**. Previously, I have worked on benchmarking MLLM performance, fine-tuning domain-specific visual question answering models, and training domain models for image captioning.
+My current research focuses on the **efficiency and reliability issues of LLM / LLM agent systems**. Previously I haved worked on MLLM benchmarking and fine-tuning tailored for domain specific needs.
 
 <nav class="section-nav" aria-label="On this page">
 <a href="#news">News</a><a href="#publications">Publications</a><a href="#projects">Projects</a><a href="#services">Services</a>
