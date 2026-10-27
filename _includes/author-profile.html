@@ -33,9 +33,17 @@
       {% if author.uri %}
         <li><a href="{{ author.uri }}"><i class="fas fa-fw fa-link icon-pad-right" aria-hidden="true"></i>{{ site.data.ui-text[site.locale].website_label | default: "Website" }}</a></li>
       {% endif %}
-      {% if author.email %}
-        <li><a href="mailto:{{ author.email }}"><i class="fas fa-fw fa-envelope icon-pad-right" aria-hidden="true"></i>{{ site.data.ui-text[site.locale].email_label | default: "Email" }}</a></li>
-      {% endif %}
+      <li class="author__icon-links">
+        {% if author.email %}
+          <a href="mailto:{{ author.email }}" aria-label="Email" title="Email"><img class="author__link-icon" src="{{ '/images/email.png' | relative_url }}" alt="" /></a>
+        {% endif %}
+        {% if author.googlescholar %}
+          <a href="{{ author.googlescholar }}" aria-label="Google Scholar" title="Google Scholar"><img class="author__link-icon" src="{{ '/images/google-scholar.png' | relative_url }}" alt="" /></a>
+        {% endif %}
+        {% if author.github %}
+          <a href="https://github.com/{{ author.github }}" aria-label="GitHub" title="GitHub"><img class="author__link-icon" src="{{ '/images/github.png' | relative_url }}" alt="" /></a>
+        {% endif %}
+      </li>
 
       <!-- Font Awesome and Academicons icons / Academic websites -->
       {% if author.academia %}
@@ -44,9 +52,6 @@
       {% if author.arxiv %}
         <li><a href="{{ author.arxiv }}"><i class="ai ai-arxiv ai-fw icon-pad-right"></i>arXiv</a></li>
       {% endif %}      
-      {% if author.googlescholar %}
-        <li><a href="{{ author.googlescholar }}"><i class="ai ai-google-scholar ai-fw icon-pad-right"></i>Google Scholar</a></li>
-      {% endif %}
       {% if author.inspire-hep %}
         <li><a href="{{ author.inspire-hep }}"><i class="ai ai-inspire ai-fw icon-pad-right"></i>INSPIRE-HEP</a></li>
       {% endif %}      
@@ -85,9 +90,6 @@
       {% if author.dribbble %}
         <li><a href="https://dribbble.com/{{ author.dribbble }}"><i class="fab fa-fw fa-dribbble icon-pad-right" aria-hidden="true"></i>Dribbble</a></li>
       {% endif %}      
-      {% if author.github %}
-        <li><a href="https://github.com/{{ author.github }}"><i class="fab fa-fw fa-github icon-pad-right" aria-hidden="true"></i>GitHub</a></li>
-      {% endif %}
       {% if author.kaggle %}
         <li><a href="https://kaggle.com/{{ author.kaggle }}"><i class="fab fa-fw fa-kaggle icon-pad-right" aria-hidden="true"></i>Kaggle</a></li>
       {% endif %}      

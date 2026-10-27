@@ -25,12 +25,14 @@ author:
   # Biographic information
   avatar           : "conan.jpg"
   name             : "Zhiwei Chen"
-  pronouns         : "he" # example: "she/her"  
-  bio              : "Researcher"
-  location         : "China"
-  employer         : "National University of Singapore"
+  pronouns         : # example: "she/her"
+  bio              :
+  location         :
+  employer         :
   uri              : # URL
   email            : "zhiwei.zhiwei@u.nus.edu" 
+  googlescholar    : "https://scholar.google.com/citations?hl=en&user=9dDpg88AAAAJ"
+  github           : "chenzhwsysu57"
 
 author_links:
   "Zhongtao Rao": "https://cn.linkedin.com/in/zhongtao-rao-405879198"

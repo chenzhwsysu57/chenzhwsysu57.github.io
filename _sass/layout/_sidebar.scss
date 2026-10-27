@@ -328,3 +328,23 @@
     }
   }
 }
+
+.sidebar .author__link-icon {
+  display: block;
+  width: 1.75em;
+  height: 1.75em;
+  object-fit: contain;
+}
+
+.author__urls .author__icon-links {
+  display: flex;
+  align-items: center;
+  gap: 0.65em;
+
+  a {
+    display: block;
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+  }
+}
